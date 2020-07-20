@@ -8,9 +8,6 @@ export default () => {
             <h1 className={styles.title}>Page index</h1>
 
 
-
-
-
             <div>
                 <Link to='/user'>userPage</Link>
                 {'    '}
