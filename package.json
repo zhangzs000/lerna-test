@@ -4,15 +4,26 @@
   "scripts": {
     "start": "lerna exec --scope umiapp npm start",
     "prettier": "node ./scripts/prettier.js",
-    "build:version": "node ./scripts/prebuild.js"
+    "build:version": "node ./scripts/prebuild.js",
+    "lint": "eslint --ext .ts,.tsx ."
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
     "chalk": "^4.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.5",
     "ignore": "^5.1.8",
     "lerna": "^3.22.1",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
   }
 }
