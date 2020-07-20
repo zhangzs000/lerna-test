@@ -25,3 +25,14 @@ yarn create @umijs/umi-app // 脚手架生成项目
 ```
 lerna勒纳 配置script ,必须给对应的项目package.json 添加 name字段。
 ```
+
+- commitlint
+```
+npm install --save-dev @commitlint/{cli,config-conventional}
+提交信息必须有feat,merge等关键字，一直没权限，加了sudo也不行，后来
+sudo cnpm ...
+```
+- husky
+```
+husky是一个git hook的管理工具，实现了大部分的git hook
+```
