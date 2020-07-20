@@ -14,10 +14,12 @@ module.exports = {
     },
     plugins: ['react', '@typescript-eslint'],
     rules: {
+        "indent": ["warn", 1],
+        "semi": "warn",
         'react/react-in-jsx-scope': 0,
         'react/display-name': 0,
         camelcase: 0,
         'no-console': 1,
-        'no-constant-condition': 0,
+        'no-constant-condition': 0
     }
 };
