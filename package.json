@@ -2,9 +2,14 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "start": "lerna exec --scope umiapp npm start"
+    "start": "lerna exec --scope umiapp npm start",
+    "prettier": "node ./scripts/prettier.js",
+    "build:version": "node ./scripts/prebuild.js"
   },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "chalk": "^4.1.0",
+    "ignore": "^5.1.8",
+    "lerna": "^3.22.1",
+    "prettier": "^2.0.5"
   }
 }
