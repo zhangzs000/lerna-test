@@ -5,7 +5,8 @@
     "start": "lerna exec --scope umiapp npm start",
     "prettier": "node ./scripts/prettier.js",
     "build:version": "node ./scripts/prebuild.js",
-    "lint": "eslint --ext .ts,.tsx ."
+    "lint": "eslint --ext .ts,.tsx .",
+    "lint-fix": "eslint --fix --ext .ts,.tsx ."
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
