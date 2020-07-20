@@ -11,8 +11,6 @@ export default () => {
 
 
 
-
-
             <div>
                 <Link to='/user'>userPage</Link>
                 {'    '}
