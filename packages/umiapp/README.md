@@ -34,5 +34,7 @@ sudo cnpm ...
 ```
 - husky
 ```
-husky是一个git hook的管理工具，实现了大部分的git hook
+husky是一个git hook的管理工具，实现了大部分的git hook;
+由于版本问题，husky安装时总是会有错误，导致没有钩子,
+升级了npm => npm i -g npm 
 ```
