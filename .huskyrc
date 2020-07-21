@@ -1,6 +1,5 @@
 {
     "hooks": {
-         "pre-commit": "npm run prettier",
         "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
         "pre-push": "npm run lint && npm t"
     }
