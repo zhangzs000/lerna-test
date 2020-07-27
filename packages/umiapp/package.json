@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "umiapp",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
