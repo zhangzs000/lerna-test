@@ -49,3 +49,7 @@ npm i -D husky
 npm install eslint --save-dev
 ./node_modules/.bin/eslint --init // 这个安装完所需包后就会出现.eslinttrc.js 
 ```
+- 升级npm导致umi不能启动
+```
+删除package.json.lock, yarn.lock文件，重新安装
+```

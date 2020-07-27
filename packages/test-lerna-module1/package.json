@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.0.0"
-  }
+    "jquery": "^3.0.0",
+    "zzs_deepcopy": "^1.0.0"
+  },
+  "gitHead": "0eac1b5c08a5ccb31de52e8d5f1cf8c2ebfda8c5"
 }

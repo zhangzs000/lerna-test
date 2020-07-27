@@ -1,6 +1,6 @@
 {
   "name": "zzs_deepcopy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,10 @@
   "homepage": "https://github.com/zhangzs000/npm_copy#readme",
   "dependencies": {
     "expect.js": "^0.3.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-rename": "^1.4.0",
     "gulp-uglify": "2.0.0",
-    "mocha": "^5.2.0"
-  }
+    "mocha": "^8.0.1"
+  },
+  "gitHead": "0eac1b5c08a5ccb31de52e8d5f1cf8c2ebfda8c5"
 }
