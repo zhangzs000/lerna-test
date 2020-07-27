@@ -1,5 +1,5 @@
 {
-  "name": "test-lerna-module1",
+  "name": "zzs-lerna-module1",
   "version": "0.0.4",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.0.0",
-    "test-lerna-module1-2": "^0.0.4",
+    "zzs-lerna-module1-2": "^0.0.4",
     "zzs_deepcopy": "^1.0.0"
   },
   "gitHead": "f8e0bc4a5f3e17ab636ef7bb4a8c079356a56832"
