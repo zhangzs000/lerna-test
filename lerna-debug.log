@@ -1,8 +1,5 @@
-50 error Error: Command failed: git add -- packages/test-lerna-module1-2/package.json packages/test-lerna-copy-module/package.json packages/test-lerna-copy-module/package-lock.json packages/test-lerna-module1/package.json packages/test-lerna-module1/package-lock.json packages/umiapp/package.json packages/umiapp/package-lock.json lerna.json
-50 error The following paths are ignored by one of your .gitignore files:
-50 error packages/test-lerna-copy-module/package-lock.json
-50 error packages/umiapp/package-lock.json
-50 error Use -f if you really want to add them.
-50 error
-50 error     at makeError (/Users/zhangzesheng/Documents/workspace/lerna-test/node_modules/execa/index.js:174:9)
-50 error     at Promise.all.then.arr (/Users/zhangzesheng/Documents/workspace/lerna-test/node_modules/execa/index.js:278:16)
+42 error Error: Command failed: git tag v0.0.8 -m v0.0.8
+42 error fatal: tag 'v0.0.8' already exists
+42 error
+42 error     at makeError (/Users/zhangzesheng/Documents/workspace/lerna-test/node_modules/execa/index.js:174:9)
+42 error     at Promise.all.then.arr (/Users/zhangzesheng/Documents/workspace/lerna-test/node_modules/execa/index.js:278:16)
