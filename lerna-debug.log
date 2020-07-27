@@ -1,19 +1,8 @@
-0 silly argv { _: [ 'exec' ],
-0 silly argv   scope: '@umiapp',
-0 silly argv   args: [ 'start' ],
-0 silly argv   lernaVersion: '3.22.1',
-0 silly argv   '$0': 'lerna',
-0 silly argv   cmd: 'npm' }
-1 notice cli v3.22.1
-2 verbose rootPath /Users/zhangzesheng/Documents/workspace/lerna-test
-3 notice filter including "@umiapp"
-4 info filter [ '@umiapp' ]
-5 error TypeError: Cannot read property 'split' of undefined
-5 error     at Minimatch.match (/Users/zhangzesheng/.nvm/versions/node/v10.16.3/lib/node_modules/lerna/node_modules/minimatch/minimatch.js:717:9)
-5 error     at /Users/zhangzesheng/.nvm/versions/node/v10.16.3/lib/node_modules/lerna/node_modules/minimatch/minimatch.js:691:15
-5 error     at Array.filter (<anonymous>)
-5 error     at Function.minimatch.match (/Users/zhangzesheng/.nvm/versions/node/v10.16.3/lib/node_modules/lerna/node_modules/minimatch/minimatch.js:690:15)
-5 error     at patterns.reduce (/Users/zhangzesheng/.nvm/versions/node/v10.16.3/lib/node_modules/lerna/node_modules/multimatch/index.js:23:33)
-5 error     at Array.reduce (<anonymous>)
-5 error     at module.exports (/Users/zhangzesheng/.nvm/versions/node/v10.16.3/lib/node_modules/lerna/node_modules/multimatch/index.js:15:18)
-5 error     at filterPackages (/Users/zhangzesheng/.nvm/versions/node/v10.16.3/lib/node_modules/lerna/node_modules/@lerna/filter-packages/filter-packages.js:45:28)
+44 error Error: Command failed: git add -- packages/test-lerna-module1/package.json packages/test-lerna-module1/package-lock.json packages/test-lerna-copy-module/package.json packages/test-lerna-copy-module/package-lock.json packages/umiapp/package.json packages/umiapp/package-lock.json lerna.json
+44 error The following paths are ignored by one of your .gitignore files:
+44 error packages/test-lerna-copy-module/package-lock.json
+44 error packages/umiapp/package-lock.json
+44 error Use -f if you really want to add them.
+44 error
+44 error     at makeError (/Users/zhangzesheng/Documents/workspace/lerna-test/node_modules/execa/index.js:174:9)
+44 error     at Promise.all.then.arr (/Users/zhangzesheng/Documents/workspace/lerna-test/node_modules/execa/index.js:278:16)

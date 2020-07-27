@@ -20,6 +20,12 @@ module.exports = {
   'react/display-name': 0,
   camelcase: 0,
   'no-console': 1,
-  'no-constant-condition': 0
+  'no-constant-condition': 0,
+  'no-unused-expressions': 1,
+  'no-undef': 1,
+  'no-sequences': 1,
+  'no-unused-vars': 1,
+  eqeqeq: 1,
+  'node/no-deprecated-api': 1
  }
-};
+}
