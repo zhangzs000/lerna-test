@@ -11,5 +11,9 @@ lerna publish 一键发布
 npm config set registry https://registry.npmjs.org/
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 只要package.json中名字一样就会被视为相同包
-
+.gitignore 文件下有 package-lock.json时会发布失败。
+```
+- lerna-changelog
+```
+lerna-changelog init 需要获取 github 权限
 ```

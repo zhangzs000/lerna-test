@@ -2,5 +2,15 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.4"
+  "version": "0.0.4",
+  "changelog": {
+    "repo": "zhangzs000/lerna-test",
+    "labels": {
+      "enhancement": ":rocket: Enhancement",
+      "bug": ":bug: Bug Fix",
+      "doc": "Refine Doc",
+      "feat": "New Feature"
+    },
+    "cacheDir": ".changelog"
+  }
 }
