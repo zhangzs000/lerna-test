@@ -1,6 +1,6 @@
 {
   "name": "test-lerna-module1",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.0.0",
-    "test-lerna-module1-2": "^0.0.3",
+    "test-lerna-module1-2": "^0.0.4",
     "zzs_deepcopy": "^1.0.0"
   },
   "gitHead": "0eac1b5c08a5ccb31de52e8d5f1cf8c2ebfda8c5"
