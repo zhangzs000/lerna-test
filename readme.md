@@ -16,5 +16,6 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
 - lerna-changelog
 ```
-lerna-changelog init 需要获取 github 权限
+lerna-changelog 需要获取 github 权限,
+修改环境变量，即使执行了source xxx，仍然不行，重启生效。
 ```
