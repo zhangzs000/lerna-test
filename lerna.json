@@ -8,8 +8,10 @@
     "labels": {
       "enhancement": ":rocket: Enhancement",
       "bug": ":bug: Bug Fix",
-      "doc": "Refine Doc",
-      "feat": "New Feature"
+      "doc": ":memo: Refine Doc",
+      "feat": "New Feature",
+      "internal": ":house: Internal",
+      "breaking": ":boom: Breaking Change"
     },
     "cacheDir": ".changelog"
   }
