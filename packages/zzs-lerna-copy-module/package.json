@@ -23,5 +23,5 @@
     "gulp-uglify": "2.0.0",
     "mocha": "^8.0.1"
   },
-  "gitHead": "f8e0bc4a5f3e17ab636ef7bb4a8c079356a56832"
+  "gitHead": "1ea6ed0f47f75f0cfc383393857413e31243efd9"
 }
