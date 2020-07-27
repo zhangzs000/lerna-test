@@ -2,6 +2,7 @@
 - 安装依赖
 ```
 lerna bootstrap 这样packages下所有的模块依赖被安装
+packages里面的包未发布时引用应该会创建软连接，在node_modules中查看
 ```
 - 发布
 ```
