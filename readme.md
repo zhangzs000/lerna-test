@@ -18,7 +18,9 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
 lerna-changelog 需要获取 github 权限,
 修改环境变量，即使执行了source xxx，仍然不行，重启生效。
-pull master 执行 lerna-changelog后终端生成日志，然后复制粘贴到 release note
+pull master 执行 lerna-changelog后终端生成日志，然后复制粘贴到 release note。
+github上点进去tag-> edit tag -> 复制粘贴生成的 changelog 就ok
+https://github.com/zhangzs000/lerna-test/releases/tag/v0.0.9
 很奇怪：
 在github上申请的token不一会就自动删除了。然后还待重新申请，source 不起作用还带重启
 ```
