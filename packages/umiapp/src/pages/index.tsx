@@ -5,7 +5,7 @@ import { Link } from 'umi'
 export default () => {
  return (
   <div>
-   <h1 className={styles.title}>Page index</h1>
+   <h1 className={styles.title}>Page index ttttt</h1>
    <div>
     <Link to='/user'>userPage</Link>
     {'    '}
