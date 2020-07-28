@@ -2,7 +2,7 @@
 - 安装 lerna
 ```
 npm i -g lerna
-mkdir lerna-repo && cd $_
+mkdir lerna-repo && cd lerna-repo
 lerna init
 ```
 - 安装依赖
