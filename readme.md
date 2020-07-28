@@ -1,4 +1,10 @@
 ## 步骤
+- 安装 lerna
+```
+npm i -g lerna
+mkdir lerna-repo && cd $_
+lerna init
+```
 - 安装依赖
 ```
 lerna bootstrap 这样packages下所有的模块依赖被安装
