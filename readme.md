@@ -20,6 +20,8 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 只要package.json中名字一样就会被视为相同包
 .gitignore 文件下有 package-lock.json时会发布失败。
 包的名字如果乱起还会被npm过滤，导致不能发布。
+~/.bash_profile 
+export GITHUB_AUTH="..."
 ```
 - lerna-changelog
 ```
