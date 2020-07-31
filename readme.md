@@ -40,4 +40,6 @@ lerna.json
 
 "version": "independent",
 "version": "0.0.9",
+这个好像随便修改发布模块会报错，不知是什么错。还是在初始化时就确定好。
+lerna init --independent 
 ```
