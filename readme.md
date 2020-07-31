@@ -34,7 +34,7 @@ https://github.com/zhangzs000/lerna-test/releases/tag/v0.0.9
 在github上申请的token不一会就自动删除了。然后还待重新申请，source 不起作用还带重启
 ```
 
-- 独立模块 & 全局模式
+- 独立模块 & 集中模式
 ```
 lerna.json
 
