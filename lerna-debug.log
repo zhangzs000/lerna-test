@@ -1,8 +1,8 @@
-40 error Error: Command failed: git commit -F /private/var/folders/df/8jgy9n113yq4f06pl0n0pdyc0000gn/T/7cb82ec7-5ee2-4a66-8713-322da089629c/lerna-commit.txt
+40 error Error: Command failed: git commit -F /private/var/folders/df/8jgy9n113yq4f06pl0n0pdyc0000gn/T/177708dc-6beb-46f9-b9a5-b969fa7dd88d/lerna-commit.txt
 40 error husky > commit-msg (node v10.16.3)
 40 error ⧗   input: Publish
 40 error
-40 error  - umiapp@1.2.4-alpha.0
+40 error  - umiapp@1.2.4
 40 error ✖   subject may not be empty [subject-empty]
 40 error ✖   type may not be empty [type-empty]
 40 error
