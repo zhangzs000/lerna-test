@@ -1,4 +1,8 @@
 ## 步骤
+- 简介
+
+Monorepo is a unified source code repository used by an organisation to host as much of its code as possible.
+
 - 安装 lerna
 ```
 npm i -g lerna
