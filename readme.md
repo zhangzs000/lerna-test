@@ -1,5 +1,5 @@
 ## 步骤
-- 简介
+- 简介，Monorepo理念
 
 Monorepo is a unified source code repository used by an organisation to host as much of its code as possible.
 
